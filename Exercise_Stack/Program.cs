@@ -30,6 +30,10 @@ namespace Exercise_Stack
             top = null;
         }
 
+        bool empty()
+        {
+            
+        }
         
     }
 }
