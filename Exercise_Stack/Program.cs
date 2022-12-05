@@ -21,6 +21,10 @@ namespace Exercise_Stack
     }
     class Stack
     {
+        public char[] adit = new char[60];
+
+        node top;
+
         
     }
 }
