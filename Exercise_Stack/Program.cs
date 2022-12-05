@@ -10,7 +10,7 @@ namespace Exercise_Stack
     {
         public int info;
         public node next;
-        
+        public node prev;
         
 
         public node(int i, node n)
@@ -19,5 +19,8 @@ namespace Exercise_Stack
             next = n;
         }
     }
-    
+    class Stack
+    {
+        
+    }
 }
