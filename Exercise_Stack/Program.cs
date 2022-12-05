@@ -32,7 +32,10 @@ namespace Exercise_Stack
 
         bool empty()
         {
-            
+            if (top == null)
+                return (true);
+            else
+                return (false);
         }
         
     }
