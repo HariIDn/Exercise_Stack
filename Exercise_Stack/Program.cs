@@ -25,6 +25,11 @@ namespace Exercise_Stack
 
         node top;
 
+        public Stack()
+        {
+            top = null;
+        }
+
         
     }
 }
