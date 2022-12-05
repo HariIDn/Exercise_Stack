@@ -71,6 +71,46 @@ namespace Exercise_Stack
                 }
             }
         }
-        
+        static void Main(string[] args)
+        {
+
+            Stack s = new Stack();
+            while (true)
+            {
+                Console.WriteLine();
+                Console.WriteLine("\nStack Menu");
+                Console.WriteLine("1. Push");
+                Console.WriteLine("2. Pop");
+                Console.WriteLine("3. Display");
+                Console.WriteLine("4. Exit");
+                Console.WriteLine("\nEnter your choice: ");
+                string Input = Console.ReadLine();
+                char ch = Convert.ToChar(Input == "" ? "o" : Input);
+                switch (ch)
+                {
+                    case '1':
+                        Console.Write("\nEnter a Characters: ");
+                        char num = Convert.ToChar(Console.ReadLine());
+                        s.push(num);
+                        break;
+                    case '2':
+                        if (s.empty())
+                        {
+                            Console.WriteLine("\nStack is Empty");
+                            break;
+                        }
+                        s.pop();
+                        break;
+                    case '3':
+                        s.display();
+                        break;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
+                }
+            }
+        }
     }
 }
