@@ -60,7 +60,16 @@ namespace Exercise_Stack
         public void display()
         {
 
-            
+            node tmp;
+            if (empty())
+                Console.WriteLine("\nStack is empty");
+            else
+            {
+                for (tmp = top; tmp != null; tmp = tmp.next)
+                {
+                    Console.WriteLine(tmp.info);
+                }
+            }
         }
         
     }
