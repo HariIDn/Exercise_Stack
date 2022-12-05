@@ -39,7 +39,17 @@ namespace Exercise_Stack
         }
         public void push(char element)
         {
-            
+            node baru;
+            baru = new node(element, null);
+
+
+            baru.next = top;
+            top = baru;
+            for (int i = 0; i < adit.Length; i++)
+            {
+                adit[i] = element;
+            }
+            Console.WriteLine("\n" + element + "Pushed");
 
         }
         
