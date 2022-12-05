@@ -57,6 +57,11 @@ namespace Exercise_Stack
             Console.WriteLine("\n The Poped Element is: " + top.info);
             top = top.next;
         }
+        public void display()
+        {
+
+            
+        }
         
     }
 }
