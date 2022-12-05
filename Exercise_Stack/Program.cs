@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Exercise_Stack
 {
-    internal class Program
+    class node
     {
-        static void Main(string[] args)
-        {
-        }
+        
+        
     }
+    
 }
