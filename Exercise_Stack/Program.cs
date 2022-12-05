@@ -52,6 +52,11 @@ namespace Exercise_Stack
             Console.WriteLine("\n" + element + "Pushed");
 
         }
+        public void pop()
+        {
+            Console.WriteLine("\n The Poped Element is: " + top.info);
+            top = top.next;
+        }
         
     }
 }
