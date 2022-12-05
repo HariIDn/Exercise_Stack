@@ -37,6 +37,11 @@ namespace Exercise_Stack
             else
                 return (false);
         }
+        public void push(char element)
+        {
+            
+
+        }
         
     }
 }
